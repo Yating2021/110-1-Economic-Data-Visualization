@@ -85,7 +85,7 @@ ggplot() +
     name="類別",
     breaks=c("female0","male0","female1","male1"),
     labels=c("高中女性", "高中男性","大學女性","大學男性"),
-    palette = "Purples")+
+    palette = "Spectral")+
   theme(
     axis.line.x = element_blank(),
     axis.ticks = element_blank(),
